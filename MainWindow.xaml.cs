@@ -20,9 +20,16 @@ namespace Stationery_company2
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Data Source=MIPC\SQLEXPRESS01;Initial Catalog=Stationery_company;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void HomeLoad(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
